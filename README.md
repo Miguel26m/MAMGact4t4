@@ -34,11 +34,11 @@ Elaboracion de una API de vehiculos, en el que describe la marca, modelo, año d
 
 * **Inicio de Sesión (Login)**
   ![Login de Usuario](img_bruno/login_user.png)
-
+Para entrar necesita que envies el email y contraseña y te genera un token para esa sesión.
 * **Protección de Rutas (Error 401 - Sin Token)**
 
   ![Sin Autorización](img_bruno/Sin_autorizacion.png)
-Para entrar necesita que envies el email y contraseña y te genera un token para esa sesión.
+Si no tienes un token no puedes hacer peticiones.
 ---
 
 ### CRUD de Vehículos
