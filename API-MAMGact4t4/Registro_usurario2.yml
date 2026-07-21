@@ -1,0 +1,27 @@
+info:
+  name: Registro_usurario2
+  type: http
+  seq: 15
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/register
+  headers:
+    - name: Accept
+      value: application/json
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Miguel Angel",
+        "email": "miguel2@ejemplo.com",
+        "password": "password123",
+        "password_confirmation": "password123"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

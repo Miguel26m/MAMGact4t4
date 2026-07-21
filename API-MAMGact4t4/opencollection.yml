@@ -1,0 +1,26 @@
+opencollection: 1.0.0
+
+info:
+  name: API-MAMGact4t4
+config:
+  proxy:
+    inherit: true
+    config:
+      protocol: http
+      hostname: ""
+      port: ""
+      auth:
+        username: ""
+        password: ""
+      bypassProxy: ""
+
+request:
+  auth:
+    type: bearer
+    token: 1|AHlMhoDVRUSyGGYt9nS8k35qw2JNYkPeThESN9oS8c189e21
+bundled: false
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git

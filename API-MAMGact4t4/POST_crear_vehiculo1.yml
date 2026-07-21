@@ -1,0 +1,28 @@
+info:
+  name: POST_crear_vehiculo1
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{url}}/vehiculos"
+  headers:
+    - name: Accept
+      value: application/json
+  body:
+    type: json
+    data: |-
+      {
+        "marca": "Nissan",
+        "modelo": "Vwm",
+        "anio": 202,
+        "color": "Verde",
+        "precio": 500000.50
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

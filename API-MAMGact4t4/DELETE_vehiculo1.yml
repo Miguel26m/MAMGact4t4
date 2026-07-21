@@ -1,0 +1,20 @@
+info:
+  name: DELETE_vehiculo1
+  type: http
+  seq: 13
+
+http:
+  method: DELETE
+  url: "{{url}}/vehiculos/3"
+  headers:
+    - name: Accept
+      value: application/json
+  auth:
+    type: bearer
+    token: 1|AHlMhoDVRUSyGGYt9nS8k35qw2JNYkPeThESN9oS8c189e21
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

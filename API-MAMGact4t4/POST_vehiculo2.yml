@@ -1,0 +1,30 @@
+info:
+  name: POST_vehiculo2
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: "{{url}}/vehiculos"
+  headers:
+    - name: Accept
+      value: application/json
+  body:
+    type: json
+    data: |-
+      {
+        "marca": "Porshe",
+        "modelo": "Spyder",
+        "anio": 2016,
+        "color": "Gris",
+        "precio": 5000000.50
+      }
+  auth:
+    type: bearer
+    token: 1|AHlMhoDVRUSyGGYt9nS8k35qw2JNYkPeThESN9oS8c189e21
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
