@@ -22,6 +22,23 @@ Elaboracion de una API de vehiculos, en el que describe la marca, modelo, año d
 * Bruno
 
 ---
+## Link de Endpoints
+
+### Registrar usuario
+http://66.179.93.253/MAMGact4t4/api/register
+
+### Hacer login
+http://66.179.93.253/MAMGact4t4/api/login
+
+### POST y GET en vehiculos
+Si quieres crear un nuevo vehiculo, usa la peticion POST y si quieres obtener una lista de los vehiculos en el API usa GET.
+
+http://66.179.93.253/MAMGact4t4/api/vehiculos
+
+### GET, PUT y DELETE 
+Si quieries buscar un vehiculo en especifico, debes poner el /id delante de la palabra vehiculos en el url, lo mismo si debes hacer un PUT o DELETE.
+
+http://66.179.93.253/MAMGact4t4/api/vehiculos/1
 
 ## Pruebas de Endpoints
 
